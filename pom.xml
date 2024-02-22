@@ -70,6 +70,11 @@
         <artifactId>api-utils</artifactId>
         <version>${api.version}</version>
       </dependency>
+      <dependency>
+        <groupId>net.ttddyy</groupId>
+        <artifactId>datasource-proxy</artifactId>
+        <version>${datasource-proxy.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -167,16 +172,6 @@
             </execution>
           </executions>
         </plugin>
-
-
-        <plugin>
-          <groupId>org.jacoco</groupId>
-          <artifactId>jacoco-maven-plugin</artifactId>
-          <version>${jacoco.version}</version>
-        </plugin>
-
-
-
       </plugins>
     </pluginManagement>
   </build>
