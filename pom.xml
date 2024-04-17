@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.2.3</version>
+    <version>3.2.4</version>
     <relativePath />
   </parent>
 
@@ -28,6 +28,7 @@
     <learning-tools.version>1.0-SNAPSHOT</learning-tools.version>
     <jacoco.version>0.8.10</jacoco.version>
     <api.version>1.0-SNAPSHOT</api.version>
+    <resteasy-jackson2-provider.version>6.2.8.Final</resteasy-jackson2-provider.version>
   </properties>
 
   <dependencyManagement>
@@ -74,6 +75,11 @@
         <groupId>net.ttddyy</groupId>
         <artifactId>datasource-proxy</artifactId>
         <version>${datasource-proxy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jackson2-provider</artifactId>
+        <version>${resteasy-jackson2-provider.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

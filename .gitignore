@@ -187,3 +187,5 @@ local.properties
 ### SVN template
 .svn/
 
+/.idea/
+/ppa-parent.iml
